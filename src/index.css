@@ -1,13 +1,104 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Thin';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff')
+        format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #535353;
+}
+* {
+    z-index: 1;
+}
+.centerMargin {
+    margin: 0 20% 0 20%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Pretendard-ExtraBold';
+    color: #fff;
+}
+p,
+label,
+span {
+    font-family: 'Pretendard-Regular';
+    color: #fff;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.btn {
+    border-radius: 15px;
+    border: #000 solid 0px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Pretendard-ExtraBold';
+
+    margin: 10px;
+    transition-duration: 0.25s;
+}
+.btn:hover {
+    transition-duration: 0.25s;
+    cursor: pointer;
+    transform: scale(0.9);
+    filter: blur(1px);
+}
+.btn-link {
+    background: none;
+    border: none;
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+    font: inherit;
+}
+
+.btn-white {
+    background-color: #fff;
+}
+.btn-blue {
+    background-color: #83b4ff;
+    color: white;
+}
+.btn-blurple {
+    background-color: #5865f2;
+}
+.btn-green {
+    background-color: #88d66c;
+    color: white;
+}
+
+.btn-large {
+    font-size: 25px;
+}
+hr {
+    width: 75%;
+    background-color: gray;
+    border: 1px solid transparent;
 }
