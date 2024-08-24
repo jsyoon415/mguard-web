@@ -28,10 +28,10 @@ function App() {
                     <br />
                     <br />
                 </p>
-                <Link to={''} target="_blank" rel="noreferrer noopener">
+                <Link to={'https://bit.ly/mguard-discord'} target="_blank" rel="noreferrer noopener">
                     <button className="btn btn-green btn-large">봇 초대하기</button>
                 </Link>
-                <Link to={''} target="_blank" rel="noreferrer noopener">
+                <Link to={'https://discord.gg/PdGctWBaVh'} target="_blank" rel="noreferrer noopener">
                     <button className="btn btn-blurple btn-large">서포트 서버 바로가기</button>
                 </Link>
             </div>
@@ -51,10 +51,10 @@ function App() {
                 <br />
                 <div style={{ textAlign: 'center' }}>
                     <h1>MGuard로 당신의 서버를 악성 유저로부터 보호하세요!</h1>
-                    <Link to={''} target="_blank" rel="noreferrer noopener">
+                    <Link to={'https://bit.ly/mguard-discord'} target="_blank" rel="noreferrer noopener">
                         <button className="btn btn-green btn-large">봇 초대하기</button>
                     </Link>
-                    <Link to={''} target="_blank" rel="noreferrer noopener">
+                    <Link to={'https://discord.gg/PdGctWBaVh'} target="_blank" rel="noreferrer noopener">
                         <button className="btn btn-blurple btn-large">서포트 서버 바로가기</button>
                     </Link>
                 </div>
