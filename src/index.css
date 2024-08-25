@@ -24,6 +24,7 @@ body {
 }
 * {
     z-index: 1;
+    user-select: none;
 }
 .centerMargin {
     margin: 0 20% 0 20%;
